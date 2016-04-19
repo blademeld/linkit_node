@@ -1,0 +1,28 @@
+{
+  "name": "linkit_node",
+  "version": "0.1.0",
+  "description": "node server for TnT project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "clean": "rm -rf node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blademeld/linkit_node.git"
+  },
+  "author": "blademeld",
+  "bugs": {
+    "url": "https://github.com/blademeld/linkit_node/issues"
+  },
+  "homepage": "https://github.com/blademeld/linkit_node#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "consign": "^0.1.2",
+    "express": "^4.13.4",
+    "lodash": "^4.11.1",
+    "method-override": "^2.3.5",
+    "mysql": "github:felixge/node-mysql"
+  }
+}
