@@ -20,7 +20,10 @@
   "dependencies": {
     "body-parser": "^1.15.0",
     "consign": "^0.1.2",
+    "cors": "^2.7.1",
     "express": "^4.13.4",
+    "fs": "0.0.2",
+    "https": "^1.0.0",
     "lodash": "^4.11.1",
     "method-override": "^2.3.5",
     "mysql": "github:felixge/node-mysql"
